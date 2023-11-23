@@ -1,0 +1,70 @@
+# Dipendenze - Cartelle con i moduli npm
+/node_modules/
+
+# File di configurazione dell'editor - Impostazioni specifiche dell'editor VSCode
+.vscode/
+
+# File di log - File di log che potrebbero essere generati da Node
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo - File e cartelle tipici dei sistemi operativi Mac, Windows e Linux
+.DS_Store
+Thumbs.db
+db.json
+*.pid
+*.seed
+*.pid.lock
+
+# Directory di build/output - Cartelle di output come dist o build
+/dist
+/build
+/out
+
+# File di lock delle dipendenze - File di lock che non dovrebbero essere committati
+package-lock.json
+yarn.lock
+
+# File e cartelle ignorati temporanei
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# File di configurazione ambientali
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# File di configurazione specifici del progetto
+tailwind.config.js
+postcss.config.js
+
+# Directory di cache
+.cache/
+.pnp
+.pnp.js
+
+# File di output di compilazione
+/lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+# File di debug
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Directory prodotte da Yeoman
+.yo-rc.json
+
+# Errori di runtime - Heap snapshot
+heapdump
