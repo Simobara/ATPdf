@@ -1,5 +1,6 @@
 # Dipendenze - Cartelle con i moduli npm
 /node_modules/
+/node_modules/.cache/
 
 # File di configurazione dell'editor - Impostazioni specifiche dell'editor VSCode
 .vscode/
